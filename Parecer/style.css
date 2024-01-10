@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.email{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+}
+
+.logo{
+    position: relative;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* width: calc(100% - 20px); */
+    /* width: 97%; */
+}
+
+.logo img{
+    max-width: 60px;
+    height: auto;
+    margin-right: 77%;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding: 1px;
+    border-radius: 8px;
+    border: 2px solid #8aff58;
+    background: linear-gradient(#bcff9f, #efffe9);
+    /* background-color: #daffcd; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.titulo h1{
+    color: #123d00;
+}
+
+.mensagem{
+    margin: 10px;
+}
+
+.mensagem p{
+    color: #111;
+    font-size: large;
+    width: max-content;
+    max-width: 570px;
+}
+
+.mensagem li{
+    list-style-type: square;
+    color: #222;
+    margin-bottom: 5px;
+    list-style-type: decimal;
+    /* border-bottom: 2px solid #9dff72; */
+    /* border-radius: 8px; */
+    width: max-content;
+    max-width: 570px;
+    /* padding: 2px 5px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+}
+
+.mensagem p,
+.mensagem li{
+    border-bottom: 1px solid #9dff72;
+    padding: 2px 5px;
+}

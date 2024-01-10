@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.email{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+}
+
+.logo{
+    position: relative;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 20px);
+}
+
+.logo img{
+    max-width: 60px;
+    height: auto;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding: 1px;
+    border-radius: 8px;
+    background-color: #ffc98c;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.titulo h1{
+    color: #000;
+}
+
+.mensagem{
+    margin: 10px;
+}
+
+.mensagem p{
+    color: #111;
+}
+
+.mensagem li{
+    list-style-type: square;
+    color: #222;
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
