@@ -34,14 +34,14 @@ body{
     margin-top: 5px;
     padding: 1px;
     border-radius: 8px;
-    border: 2px solid #8aff58;
+    /* border: 2px solid #8aff58; */
     /* background: linear-gradient(#bcff9f, #efffe9); */
-    background-color: #daffcd;
+    background-color: #358d15;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .titulo h1{
-    color: #123d00;
+    color: #000;
 }
 
 .mensagem{
