@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -36,12 +36,15 @@ body{
     border-radius: 8px;
     /* border: 2px solid #8aff58; */
     /* background: linear-gradient(#bcff9f, #efffe9); */
-    background-color: #358d15;
+    background-color: rgba(53, 141, 21, 0.5);
+    /* opacity: 0.5; */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .titulo h1{
     color: #000;
+    font-size: 24px;
+    opacity: 1;
 }
 
 .mensagem{
@@ -70,6 +73,6 @@ body{
 
 .mensagem p,
 .mensagem li{
-    border-bottom: 1px solid #9dff72;
+    border-bottom: 1px solid #696969;
     padding: 2px 5px;
 }
