@@ -14,7 +14,7 @@ body{
 
 .tarja{
     position: absolute;
-    background-color: #ffa500;
+    background-color: #ffb62f;
     top: 101px;
     margin-left: 10px;
     height: 40px;
@@ -24,7 +24,7 @@ body{
 
 .tarjaAux{
     position: absolute;
-    background-color: #ffb732;
+    background-color: #ffb62f;
     top: 101px;
     margin-left: 25px;
     height: 30px;
