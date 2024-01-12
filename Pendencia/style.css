@@ -13,29 +13,17 @@ body{
 }
 
 .tarja{
-    position: absolute;
-    background-color: #ffb62f;
-    top: 101px;
-    margin-left: 10px;
-    height: 40px;
-    width: 20px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
-}
-
-.tarjaAux{
-    position: absolute;
-    background-color: #ffb62f;
-    top: 101px;
-    margin-left: 25px;
-    height: 30px;
-    width: 20px;
-    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+    position: relative;
+    background: linear-gradient(to right, #ffb62f, #ffda95);
+    height: 10px;
+    width: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
 
 .data p{
     position: relative;
     text-align: end;
-    margin: 0 10px;
+    margin: 5px 10px;
 }
 
 .logo{
